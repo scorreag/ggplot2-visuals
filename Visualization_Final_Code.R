@@ -1,9 +1,9 @@
 #=================================================================================================
 # THE IMDB PREDICTION CHALLENGE - VISUALIZATION CODE
 #=================================================================================================
-movies = read.csv("D:/Multivariate_Final_Project/data_final.csv") # original
-movies5 = read.csv("D:/Multivariate_Final_Project/data_final_fri.csv")
-movies8 = read.csv("D:/Multivariate_Final_Project/data_final_mon.csv") # Last 
+movies = read.csv("./data_final.csv") # original
+movies5 = read.csv("./data_final_fri.csv")
+movies8 = read.csv("./data_final_mon.csv") # Last 
 
 detach(movies4)
 attach(movies5)
